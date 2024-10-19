@@ -1,0 +1,31 @@
+# Ignore the Dockerfile itself
+Dockerfile
+
+# Ignore any temporary files or directories
+*.tmp
+*.temp
+*.log
+
+# Ignore version control directories
+.git
+.gitignore
+
+# Ignore build directories
+build/
+dist/
+
+# Ignore files related to IDEs or editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore zip files if you want to keep the context clean (but don't ignore the database zip used in the build)
+# linuxx64_12c_database.zip
+
+# Ignore any environment variable files
+.env
+
+# Ignore other unnecessary files
+*.md
+README.md
